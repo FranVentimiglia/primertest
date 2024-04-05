@@ -4,15 +4,7 @@ export default function PersonalForm() {
     return (
         <>
             <div className={styles.description}>
-                <h1> 
-                        
-                        Datos Personales
-
-                </h1>
-                    
-
-                
-
+                <h1>Datos Personales</h1>
             </div>
             <div className={styles.formdatos}>
                 <p>Nombre *</p>

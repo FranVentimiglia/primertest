@@ -31,7 +31,6 @@ test('test compruebo formulario', async ({ page }) => {
 
     const Correo = await page.getByText('Correo Electronico');
     await expect(Correo).toHaveText('Correo Electronico *');
-
     
 })
 
