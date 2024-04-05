@@ -4,23 +4,27 @@ export default function PersonalForm() {
     return (
         <>
             <div className={styles.description}>
-                <p>
-                    Datos Personales
+                <h1> 
+                        
+                        Datos Personales
 
-                </p>
+                </h1>
+                    
+
+                
 
             </div>
             <div className={styles.formdatos}>
                 <p>Nombre *</p>
-                <input type="text" className={styles.field}></input>
+                <input type="Nombre" className={styles.field}></input>
                 <p>Apellido *</p>
-                <input type="text" className={styles.field}></input>
+                <input type="Apellido" className={styles.field}></input>
                 <p>Domicilio</p>
-                <input type="text" className={styles.field}></input>
+                <input type="Domicilio" className={styles.field}></input>
                 <p>Telefono</p>
-                <input type="text" className={styles.field}></input>
+                <input type="Telefono" className={styles.field}></input>
                 <p>Correo Electronico *</p>
-                <input type="text" className={styles.field}></input>
+                <input type="Correo Electronico" className={styles.field}></input>
             </div>
             <div className={styles.button}>
                 <ButtonSend />
