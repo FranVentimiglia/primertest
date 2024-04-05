@@ -33,7 +33,6 @@ test('test compruebo formulario', async ({ page }) => {
     await expect(Correo).toHaveText('Correo Electronico *');
 
     
-    
 })
 
 test('Compruebo click del boton', async ({ page }) => {
